@@ -3,6 +3,6 @@
     <remote name="upstream" fetch="https://github.com/"/>
     <remote name="origin" fetch="ssh://git@github.com/"/>
 
-    <project name="llvm-mirror/llvm" path="llvm" remote="upstream"/>
-    <project name="twrl/clang" path="llvm/tools/clang" remote="origin"/>
+    <project name="llvm-mirror/llvm" path="llvm" remote="upstream" revision="release_40"/>
+    <project name="twrl/clang" path="llvm/tools/clang" remote="origin" revision="release_40"/>
 </manifest>
