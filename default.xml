@@ -3,6 +3,10 @@
     <remote name="upstream" fetch="https://github.com/"/>
     <remote name="origin" fetch="ssh://git@github.com/"/>
 
-    <project name="llvm-mirror/llvm" path="llvm" remote="upstream" revision="release_40"/>
-    <project name="twrl/clang" path="llvm/tools/clang" remote="origin" revision="release_40"/>
+    <project name="llvm-mirror/llvm" path="llvm" remote="upstream" revision="release_40" />
+    <project name="llvm-mirror/lld" path="llvm/tools/lld" remote="upstream" revision="release_40" />
+    <project name="llvm-mirror/polly" path="llvm/tools/polly" remote="upstream" revision="release_40" />
+    <project name="llvm-mirror/libcxx" path="llvm/projects/libcxx" remote="upstream" revision="release_40" />
+    <project name="llvm-mirror/libcxxabi" path="llvm/projects/libcxxabi" remote="upstream" revision="release_40" />
+    <project name="twrl/clang" path="llvm/tools/clang" remote="origin" revision="master"/>
 </manifest>
